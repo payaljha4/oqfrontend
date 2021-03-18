@@ -1,0 +1,53 @@
+:root {
+  --main_color: #010080;
+  --hoverColor: #ffa723;
+  --text: black;
+  --new_points: #0059ff;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 0;
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(244, 248, 255, 0.21);
+}
+label{
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+li {
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+input[type='radio'] { transform: scale(2); }
+
+Link{
+  text-decoration: none;
+}
+.flat_btn:hover {
+  background-color: var(--hoverColor);
+}
+.loader-block{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 250px 0;
+}
+.loader-block img{
+  width: 60px;
+}
+
+
+
+
+
+
+

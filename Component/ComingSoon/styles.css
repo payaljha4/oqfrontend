@@ -1,0 +1,23 @@
+.styling{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-shadow: 0 0 4px rgb(0 0 0 / 52%);
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 103px;
+    bottom: 50px;
+    left: 50px;
+    top: 386px;
+ 
+}
+.ComingSoon-page{
+    width: 100vw;
+    z-index: -5;
+    height: 854px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: blur(2px);
+}
